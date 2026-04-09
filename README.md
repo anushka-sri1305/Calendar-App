@@ -1,17 +1,49 @@
-# React + Vite
+# 📅 Interactive Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **wall-style calendar application** built using React.  
+This project allows users to select date ranges, add events with notes, and manage them with a clean and intuitive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://calendar-app-seven-weld.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Calendar-App" 
+- 📆 **Wall Calendar UI**
+  - Clean layout inspired by real-world hanging calendars
+  - Monthly view with dynamic rendering
+
+- 🔄 **Month Navigation**
+  - Smooth flip animation between months
+
+- 🟦 **Date Range Selection**
+  - Select start and end dates
+  - Visual highlighting of selected range
+
+- 📝 **Event Management**
+  - Add notes for selected date ranges
+  - View event details by clicking highlighted dates
+  - Delete events easily
+
+- 💾 **Persistent Storage**
+  - Events saved using `localStorage`
+  - Data remains after page refresh
+
+- 📱 **Responsive Design**
+  - Optimized for both desktop and mobile devices
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React (Vite)
+- 🎨 CSS (Custom styling)
+- 🎥 Framer Motion (for animations)
+- 💾 LocalStorage (for persistence)
+- 🌐 Vercel (deployment)
+
+

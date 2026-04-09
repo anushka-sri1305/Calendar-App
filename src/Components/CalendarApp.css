@@ -162,4 +162,33 @@ body {
   .main-layout {
     flex-direction: column;
   }
+  .page {
+    width: 100%;
+    max-width: 350px;
+  }
+  .calendar-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .notes {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .notes textarea {
+    height: 180px;
+  }
+   .dates-grid span {
+    padding: 10px;
+    font-size: 14px;
+  }
+   .dates-grid span {
+    padding: 10px;
+    font-size: 14px;
+  }
 }
